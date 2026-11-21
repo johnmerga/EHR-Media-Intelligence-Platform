@@ -1,0 +1,50 @@
+{
+  "raw_records": 59,
+  "patients": 16,
+  "encounters": 21,
+  "clean_records": 52,
+  "quarantined_records": 3,
+  "patients_with_conflicts": [
+    "MRN-001236",
+    "MRN-001241"
+  ],
+  "audit_entries_by_severity": {
+    "conflict": 2,
+    "info": 87,
+    "warning": 8
+  },
+  "audit_entries_by_rule": {
+    "date.ambiguous_month_first": 14,
+    "date.reformatted": 26,
+    "date.two_digit_year": 1,
+    "date.unparseable": 1,
+    "demographics.conflict_resolved": 2,
+    "demographics.filled_from_other_source": 1,
+    "demographics.missing": 1,
+    "encounter.unknown_reference_removed": 1,
+    "gender.defaulted_unknown": 2,
+    "gender.mapped": 19,
+    "mrn.canonicalized": 12,
+    "name.normalized": 11,
+    "patient.possible_duplicate": 2,
+    "record.exact_duplicate_dropped": 2,
+    "record.near_duplicate_merged": 2
+  },
+  "quarantine": [
+    {
+      "source_ref": "ehr_export.json#patient=0,document=2",
+      "rule": "record.empty_content",
+      "reason": "The record has no text content"
+    },
+    {
+      "source_ref": "lab_results.csv#row=19",
+      "rule": "record.missing_patient_identifier",
+      "reason": "The record has no MRN, so it cannot be attributed to a patient"
+    },
+    {
+      "source_ref": "unidentified_scan_01.txt",
+      "rule": "record.missing_patient_identifier",
+      "reason": "The record has no MRN, so it cannot be attributed to a patient"
+    }
+  ]
+}

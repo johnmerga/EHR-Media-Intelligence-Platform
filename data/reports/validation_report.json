@@ -1,0 +1,182 @@
+{
+  "fhir_version": "4.0.1",
+  "bundle_count": 16,
+  "valid_bundle_count": 16,
+  "issue_count": 0,
+  "bundles": [
+    {
+      "patient_mrn": "MRN-001234",
+      "bundle_id": "e367e00c-25a3-5a3d-8f94-7dce24b19d4f",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 2,
+        "DocumentReference": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001235",
+      "bundle_id": "749d3ca8-97db-55e6-8a70-b03d66fd7140",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 3,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001236",
+      "bundle_id": "fa34ad76-c034-5942-b61a-632cd33ad55e",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 2,
+        "DocumentReference": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001237",
+      "bundle_id": "10a77e58-08a4-5880-a4a4-7683f309e26c",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DocumentReference": 1,
+        "DiagnosticReport": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001238",
+      "bundle_id": "847f7232-1919-5b87-85b7-17eb0c9ba46e",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 2,
+        "DocumentReference": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001239",
+      "bundle_id": "642a8c4b-0cbb-5f69-a519-82b995d6db18",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DocumentReference": 1,
+        "DiagnosticReport": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001240",
+      "bundle_id": "ad7c1040-47e5-50cf-bb5f-8b800a093eb9",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 2,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001241",
+      "bundle_id": "60ee84e1-def9-51c1-abe7-3e71b67fda91",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 3,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001242",
+      "bundle_id": "0493ffc0-cbb3-5f62-809e-55616c8e8a66",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 3,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001243",
+      "bundle_id": "a437c77c-6bee-5586-a7c8-28441d28859f",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 1,
+        "DocumentReference": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001244",
+      "bundle_id": "947984df-a68f-54b4-81a7-1ef47069f11a",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 1,
+        "DocumentReference": 2
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001245",
+      "bundle_id": "fba1db45-cde4-5562-acda-1cb1674473f2",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 2,
+        "DiagnosticReport": 2,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001246",
+      "bundle_id": "5bdaefce-033f-56d7-896f-2b76a4891024",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 2,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001247",
+      "bundle_id": "f1f2166b-0971-5201-b397-ff8ea5d694b6",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 3,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-001915",
+      "bundle_id": "6915c41b-5bb3-5111-9bca-aa97d73cf709",
+      "resource_counts": {
+        "Patient": 1,
+        "Encounter": 1,
+        "DiagnosticReport": 1,
+        "DocumentReference": 1
+      },
+      "issues": []
+    },
+    {
+      "patient_mrn": "MRN-009915",
+      "bundle_id": "508bbeda-123a-54a3-a44a-0f5e923f608b",
+      "resource_counts": {
+        "Patient": 1,
+        "DocumentReference": 1
+      },
+      "issues": []
+    }
+  ]
+}
