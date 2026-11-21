@@ -23,6 +23,9 @@ class Settings(BaseSettings):
 
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
 
+    # Path prefix the API is served under by a reverse proxy, e.g. "/api".
+    api_root_path: str = ""
+
     search_top_k: int = Field(default=5, ge=1, le=50)
     search_max_query_length: int = Field(default=300, ge=1)
 

@@ -14,6 +14,9 @@ from ehr_platform.fhir.mapper import build_bundles
 from ehr_platform.fhir.reader import read_bundle
 from ehr_platform.fhir.validation import ValidationReport, validate_bundles
 from ehr_platform.ingestion import IngestionResult, ingest_directory
+from ehr_platform.search.embedder import SentenceTransformerEmbedder
+from ehr_platform.search.index import VectorIndex
+from ehr_platform.search.service import build_index
 from ehr_platform.storage import Store
 from ehr_platform.summarization.evaluation import EvaluationReport, evaluate_summary
 from ehr_platform.summarization.generators import (
@@ -139,3 +142,9 @@ def run_summarize(
         report.planted_anomaly_recall,
     )
     return report
+
+
+def run_index(settings: Settings, store: Store) -> int:
+    """Stage 4: embed every FHIR document and summary into the vector index."""
+    embedder = SentenceTransformerEmbedder(settings.embedding_model)
+    return build_index(store, VectorIndex(settings.index_dir), embedder, force=True)

@@ -18,15 +18,16 @@ STAGE_HELP = {
     "ingest": "Read and clean the raw files",
     "fhir": "Map clean records to FHIR R4 Bundles and validate them",
     "summarize": "Generate (or reuse cached) clinical summaries and evaluate them",
+    "index": "Embed FHIR documents and summaries into the vector index",
 }
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="ehr", description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    refreshable = [commands.add_parser(name, help=text) for name, text in STAGE_HELP.items()][-1:]
-    refreshable.append(commands.add_parser("run", help="Run every stage in order"))
-    for command in refreshable:
+    parsers = {name: commands.add_parser(name, help=text) for name, text in STAGE_HELP.items()}
+    parsers["run"] = commands.add_parser("run", help="Run every stage in order")
+    for command in (parsers["summarize"], parsers["run"]):
         command.add_argument(
             "--refresh-summaries",
             action="store_true",
@@ -44,6 +45,7 @@ def main(argv: list[str] | None = None) -> int:
         "summarize": partial(
             pipeline.run_summarize, refresh=getattr(arguments, "refresh_summaries", False)
         ),
+        "index": pipeline.run_index,
     }
     selected = list(stages) if arguments.command == "run" else [arguments.command]
     for name in selected:
