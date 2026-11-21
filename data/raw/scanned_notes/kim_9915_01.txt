@@ -1,0 +1,10 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Daniel Kim
+MRN: MRN-009915
+DOB: 15-Sep-2001
+Sex: Male
+Date of Service: 28-Jun-2025
+Document Type: Sports medicine follow-up note
+Author: Dr. Leila Haddad
+
+Two weeks after concussion. Headaches resolved, no dizziness, sleeping normally. Symptom-free at rest and with light exercise. Cleared to begin the graded return-to-play protocol.

@@ -1,0 +1,11 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Patricia Moore
+MRN: MRN-001241
+DOB: 27-Feb-1914
+Sex: Female
+Date of Service: 15-Mar-2025
+Document Type: Discharge summary
+Encounter: ENC-10012
+Author: Dr. Priya Raman
+
+84-year-old woman admitted with one week of worsening breathlessness, orthopnea and leg swelling. Diagnosis: acute decompensated heart failure with reduced ejection fraction. Treated with intravenous furosemide with 4.5 kg weight loss. Started sacubitril-valsartan and bisoprolol. Daily weights and fluid restriction advised.

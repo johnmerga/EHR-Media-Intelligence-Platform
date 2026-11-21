@@ -1,0 +1,11 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Michael Johnson
+MRN: MRN-001242
+DOB: 13-Aug-1975
+Sex: Male
+Date of Service: 22-Apr-2025
+Document Type: Nephrology consultation note
+Encounter: ENC-10014
+Author: Dr. Farah Siddiqui
+
+Chronic kidney disease stage 3b with severely increased albuminuria, most likely hypertensive nephropathy. Blood pressure 152/94. Plan: start lisinopril, avoid NSAIDs, low-sodium diet, repeat kidney function in three months.

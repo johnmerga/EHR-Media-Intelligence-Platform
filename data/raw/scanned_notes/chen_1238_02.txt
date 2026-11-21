@@ -1,0 +1,11 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: William Chen
+MRN: MRN-001238
+DOB: 09-Sep-1948
+Sex: Male
+Date of Service: 25-Mar-2025
+Document Type: Stroke rehabilitation note
+Encounter: ENC-10009
+Author: Dr. Leila Haddad
+
+Four weeks after left MCA stroke. Right arm strength improved to 4+/5. Speech fluent with occasional word-finding difficulty. Walking independently. Continue outpatient physiotherapy and speech therapy. Anticoagulation with apixaban continues for atrial fibrillation.

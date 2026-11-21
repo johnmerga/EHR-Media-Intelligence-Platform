@@ -1,0 +1,8 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Sarah Thompson
+MRN: MRN-001243
+Date of Service: 09-Jun-2025
+Document Type: Pulmonary function test report
+Author: Dr. Oliver Grant
+
+Spirometry: FEV1 71% of predicted, FEV1/FVC ratio 0.66. FEV1 improved by 18% after bronchodilator. Impression: reversible airflow obstruction consistent with asthma. Recommend stepping up inhaled corticosteroid therapy.

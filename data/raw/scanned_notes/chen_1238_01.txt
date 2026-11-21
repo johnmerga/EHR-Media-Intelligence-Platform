@@ -1,0 +1,12 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: William Chen
+MRN: MRN-001238
+DOB: 09-Sep-1948
+Sex: Male
+Date of Service: 27-Feb-2025
+Document Type: Discharge summary
+Encounter: ENC-10008
+Author: Dr. Marcus Bell
+
+76-year-old man presented with sudden right-sided weakness and expressive aphasia.  Received intravenous thrombolysis within the treatment window.
+DIAGNOSIS: acute ischemic stroke, left middle cerebral artery territory. New atrial fibrillation found on telemetry; started apixaban.   Discharged to inpatient rehabilitation with residual mild right arm weakness.

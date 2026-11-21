@@ -1,0 +1,10 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Thomas Wright
+MRN: MRN-001244
+Sex: Male
+Date of Service: 14-Apr-2025
+Document Type: Pulmonary function test report
+Encounter: ENC-10016
+Author: Dr. Oliver Grant
+
+Spirometry: FEV1 48% of predicted, FEV1/FVC ratio 0.52, no significant bronchodilator response. Impression: severe fixed airflow obstruction consistent with COPD, GOLD stage 3.

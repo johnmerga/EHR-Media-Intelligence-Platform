@@ -1,0 +1,195 @@
+{
+  "description": "Defects injected on purpose into the synthetic dataset.",
+  "expected_patients": 16,
+  "expected_records": 52,
+  "expected_quarantined": 3,
+  "defects": [
+    {
+      "rule": "mrn.canonicalized",
+      "mrn": "MRN-001234",
+      "note": "MRN written as '1234' and 'mrn 001234'"
+    },
+    {
+      "rule": "date.two_digit_year",
+      "mrn": "MRN-001234",
+      "note": "DOB written as 14-Mar-62"
+    },
+    {
+      "rule": "date.ambiguous_month_first",
+      "mrn": "MRN-001235",
+      "note": "DOB 11/02/1978 could be 2 Nov or 11 Feb"
+    },
+    {
+      "rule": "gender.mapped",
+      "mrn": "MRN-001235",
+      "note": "sex written as 'F'"
+    },
+    {
+      "rule": "record.exact_duplicate_dropped",
+      "mrn": "MRN-001235",
+      "title": "Complete blood count",
+      "note": "CSV row appears twice"
+    },
+    {
+      "rule": "demographics.conflict_resolved",
+      "mrn": "MRN-001236",
+      "note": "DOB is 1955-07-21 in the JSON export but 07/12/1955 in the lab CSV"
+    },
+    {
+      "rule": "demographics.filled_from_other_source",
+      "mrn": "MRN-001237",
+      "note": "sex is blank in the JSON export and 'Female' in the lab CSV"
+    },
+    {
+      "rule": "name.normalized",
+      "mrn": "MRN-001238",
+      "note": "name written as 'CHEN, WILLIAM'"
+    },
+    {
+      "rule": "record.near_duplicate_merged",
+      "mrn": "MRN-001238",
+      "title": "Discharge summary",
+      "note": "discharge summary exists in the JSON export and as a scan"
+    },
+    {
+      "rule": "gender.mapped",
+      "mrn": "MRN-001239",
+      "note": "sex written as 'U'"
+    },
+    {
+      "rule": "date.unparseable",
+      "mrn": "MRN-001239",
+      "title": "Surgical pathology report",
+      "note": "date of service is 02/30/2025"
+    },
+    {
+      "rule": "mrn.canonicalized",
+      "mrn": "MRN-001240",
+      "note": "MRN written as 'mrn#1240'"
+    },
+    {
+      "rule": "record.exact_duplicate_dropped",
+      "mrn": "MRN-001240",
+      "title": "CT abdomen and pelvis with contrast",
+      "note": "JSON document appears twice"
+    },
+    {
+      "rule": "demographics.conflict_resolved",
+      "mrn": "MRN-001241",
+      "note": "DOB is 1941-02-27 in the JSON export but 27-Feb-1914 on a scanned note"
+    },
+    {
+      "rule": "date.reformatted",
+      "mrn": "MRN-001242",
+      "title": "Basic metabolic panel",
+      "note": "collection date written as 20250310"
+    },
+    {
+      "rule": "encounter.unknown_reference_removed",
+      "mrn": "MRN-001242",
+      "title": "Urine albumin-to-creatinine ratio",
+      "note": "row references encounter ENC-99999, which does not exist"
+    },
+    {
+      "rule": "gender.defaulted_unknown",
+      "mrn": "MRN-001243",
+      "note": "sex is missing from every source"
+    },
+    {
+      "rule": "demographics.missing",
+      "mrn": "MRN-001244",
+      "note": "DOB is missing from every source"
+    },
+    {
+      "rule": "record.near_duplicate_merged",
+      "mrn": "MRN-001245",
+      "title": "Thyroid stimulating hormone",
+      "note": "lab result re-entered with different case and spacing"
+    },
+    {
+      "rule": "date.reformatted",
+      "mrn": "MRN-001246",
+      "note": "DOB written day-first as 19/12/1950"
+    },
+    {
+      "rule": "date.reformatted",
+      "mrn": "MRN-001247",
+      "note": "DOB written as 'March 3, 1972'"
+    },
+    {
+      "rule": "patient.possible_duplicate",
+      "mrn": "MRN-001915",
+      "note": "Daniel Kim, born 2001-09-15, also exists under MRN 9915"
+    },
+    {
+      "rule": "patient.possible_duplicate",
+      "mrn": "MRN-009915",
+      "note": "Daniel Kim, born 2001-09-15, also exists under MRN 1915"
+    },
+    {
+      "rule": "record.missing_patient_identifier",
+      "mrn": null,
+      "note": "lab_results.csv: one row has a blank MRN"
+    },
+    {
+      "rule": "record.missing_patient_identifier",
+      "mrn": null,
+      "note": "scanned_notes: one note has no MRN line"
+    },
+    {
+      "rule": "record.empty_content",
+      "mrn": null,
+      "note": "ehr_export.json: one document has an empty body"
+    }
+  ],
+  "planted_anomalies": {
+    "MRN-001234": [
+      "troponin"
+    ],
+    "MRN-001235": [
+      "consolidation",
+      "white blood cell"
+    ],
+    "MRN-001236": [
+      "hba1c"
+    ],
+    "MRN-001237": [
+      "hemoglobin",
+      "ferritin"
+    ],
+    "MRN-001238": [
+      "infarct"
+    ],
+    "MRN-001239": [
+      "bi-rads",
+      "carcinoma"
+    ],
+    "MRN-001240": [
+      "appendicitis"
+    ],
+    "MRN-001241": [
+      "bnp",
+      "ejection fraction"
+    ],
+    "MRN-001242": [
+      "creatinine",
+      "albumin"
+    ],
+    "MRN-001243": [
+      "peak flow"
+    ],
+    "MRN-001244": [
+      "nodule"
+    ],
+    "MRN-001245": [
+      "tsh"
+    ],
+    "MRN-001246": [
+      "fracture"
+    ],
+    "MRN-001247": [
+      "e. coli",
+      "hydronephrosis"
+    ]
+  }
+}

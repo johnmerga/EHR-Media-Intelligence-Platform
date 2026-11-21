@@ -1,0 +1,43 @@
+# --- Internal working documents (never published) ---
+# Planning notes, the assessment brief and the write-up live here locally.
+/docs/
+*.pdf
+
+# --- Secrets and local configuration ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Generated at runtime (rebuilt from the committed SQLite store) ---
+/data/index/
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- Node / frontend ---
+node_modules/
+/web/dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Editors, OS and tooling ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.claude/

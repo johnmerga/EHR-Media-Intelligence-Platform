@@ -1,0 +1,11 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: James O'Connor
+MRN: MRN-001236
+DOB: 21-Jul-1955
+Sex: Male
+Date of Service: 02-Apr-2025
+Document Type: Diabetic retinal examination
+Encounter: ENC-10006
+Author: Dr. Naomi Feld
+
+Dilated fundus examination. Right eye: scattered microaneurysms and dot hemorrhages. Left eye: microaneurysms, no macular edema. Impression: mild non-proliferative diabetic retinopathy in both eyes. Repeat examination in twelve months.

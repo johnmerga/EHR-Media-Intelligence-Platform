@@ -1,0 +1,11 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Robert Hayes
+MRN: mrn 001234
+DOB: 14-Mar-62
+Sex: Male
+Date of Service: 12-Feb-2025
+Document Type: Cardiology follow-up note
+Encounter: ENC-10002
+Author: Dr. Alan Whitfield
+
+Seen one month after NSTEMI with stent to the right coronary artery. No recurrent chest pain. Tolerating dual antiplatelet therapy. Blood pressure 128/78. Plan: continue current medications, cardiac rehabilitation referral, repeat echocardiogram in three months.

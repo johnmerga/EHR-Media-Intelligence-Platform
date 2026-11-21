@@ -1,0 +1,9 @@
+*** SCANNED DOCUMENT - OCR TEXT ***
+Patient: Linda Baker
+MRN: MRN-001239
+DOB: 17-May-1969
+Date of Service: 02/30/2025
+Document Type: Surgical pathology report
+Author: Dr. Victor Adeyemi
+
+Left breast core biopsy, 2 o'clock. Invasive ductal carcinoma, grade 2. Estrogen receptor positive, progesterone receptor positive, HER2 negative. Referred to the breast multidisciplinary team.
