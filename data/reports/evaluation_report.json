@@ -1,0 +1,327 @@
+{
+  "word_limit": 200,
+  "summary_count": 16,
+  "llm_generated_count": 16,
+  "passed_count": 16,
+  "mean_word_count": 62.6,
+  "max_word_count": 114,
+  "mean_groundedness": 0.921,
+  "planted_anomaly_recall": 0.9,
+  "failures": [],
+  "evaluations": [
+    {
+      "mrn": "MRN-001234",
+      "generator": "llm",
+      "word_count": 60,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.926,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "troponin"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001235",
+      "generator": "llm",
+      "word_count": 70,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.939,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "consolidation",
+        "white blood cell"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001236",
+      "generator": "llm",
+      "word_count": 72,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.933,
+      "ungrounded_terms": [
+        "foot",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "hba1c"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001237",
+      "generator": "llm",
+      "word_count": 59,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.964,
+      "ungrounded_terms": [
+        "sought"
+      ],
+      "planted_anomalies": [
+        "hemoglobin",
+        "ferritin"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001238",
+      "generator": "llm",
+      "word_count": 43,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.917,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "infarct"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001239",
+      "generator": "llm",
+      "word_count": 65,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.906,
+      "ungrounded_terms": [
+        "care",
+        "evaluation",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "bi-rads",
+        "carcinoma"
+      ],
+      "missed_anomalies": [
+        "bi-rads"
+      ]
+    },
+    {
+      "mrn": "MRN-001240",
+      "generator": "llm",
+      "word_count": 61,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.939,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "appendicitis"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001241",
+      "generator": "llm",
+      "word_count": 75,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.947,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "bnp",
+        "ejection fraction"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001242",
+      "generator": "llm",
+      "word_count": 65,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 1.0,
+      "ungrounded_terms": [],
+      "planted_anomalies": [
+        "creatinine",
+        "albumin"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001243",
+      "generator": "llm",
+      "word_count": 58,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.941,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "peak flow"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001244",
+      "generator": "llm",
+      "word_count": 83,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.909,
+      "ungrounded_terms": [
+        "care",
+        "evaluation",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "nodule"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001245",
+      "generator": "llm",
+      "word_count": 43,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.938,
+      "ungrounded_terms": [
+        "sought"
+      ],
+      "planted_anomalies": [
+        "tsh"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001246",
+      "generator": "llm",
+      "word_count": 54,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.8,
+      "ungrounded_terms": [
+        "being",
+        "care",
+        "falling",
+        "performed",
+        "sought",
+        "unable"
+      ],
+      "planted_anomalies": [
+        "fracture"
+      ],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-001247",
+      "generator": "llm",
+      "word_count": 114,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.942,
+      "ungrounded_terms": [
+        "care",
+        "discharged",
+        "sought"
+      ],
+      "planted_anomalies": [
+        "e. coli",
+        "hydronephrosis"
+      ],
+      "missed_anomalies": [
+        "e. coli"
+      ]
+    },
+    {
+      "mrn": "MRN-001915",
+      "generator": "llm",
+      "word_count": 47,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.857,
+      "ungrounded_terms": [
+        "accompanied",
+        "care",
+        "sought",
+        "sustained"
+      ],
+      "planted_anomalies": [],
+      "missed_anomalies": []
+    },
+    {
+      "mrn": "MRN-009915",
+      "generator": "llm",
+      "word_count": 32,
+      "within_word_limit": true,
+      "sections_complete": true,
+      "has_disclaimer": true,
+      "invalid_media_dates": [],
+      "unsupported_numbers": [],
+      "groundedness": 0.882,
+      "ungrounded_terms": [
+        "care",
+        "sought"
+      ],
+      "planted_anomalies": [],
+      "missed_anomalies": []
+    }
+  ]
+}

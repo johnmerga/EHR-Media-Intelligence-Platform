@@ -283,6 +283,15 @@ class Store:
             ).fetchone()
         return row["payload"] if row else None
 
+    def summary_for_patient(self, patient_id: str) -> str | None:
+        """The patient's current summary (the most recently written cache entry)."""
+        with self._connect() as db:
+            row = db.execute(
+                "SELECT payload FROM summaries WHERE patient_id = ? ORDER BY rowid DESC LIMIT 1",
+                (patient_id,),
+            ).fetchone()
+        return row["payload"] if row else None
+
     def put_summary(self, patient_id: str, cache_key: str, payload: str) -> None:
         with self._connect() as db:
             db.execute(
