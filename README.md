@@ -6,6 +6,8 @@ clinician search every record in plain language.
 
 All patient data in this repository is synthetic.
 
+A live deployment runs at [demo.yohannes-merga.et](https://demo.yohannes-merga.et).
+
 ```text
 data/raw/                 JSON export, lab CSV, scanned-note text
    │  ehr ingest          clean, deduplicate, resolve conflicts, write an audit log
